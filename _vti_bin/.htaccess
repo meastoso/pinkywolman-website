@@ -1,0 +1,16 @@
+# -FrontPage-
+
+Options None
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthName 1317582.1411374
+AuthUserFile /data/13/1/154/93/1317582/user/1411374/htdocs/_vti_pvt/service.pwd
+AuthGroupFile /data/13/1/154/93/1317582/user/1411374/htdocs/_vti_pvt/service.grp
